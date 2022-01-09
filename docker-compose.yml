@@ -15,3 +15,4 @@ monica:
         - "80:80"
     env_file:
         - monica.env
+    user: ${CURRENT_UID}
